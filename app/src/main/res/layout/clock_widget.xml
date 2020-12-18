@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin">
+    <TextClock
+        android:id="@+id/widget_text_clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="5dp"
+        android:format12Hour="hh:mm:ss"
+        android:background="@drawable/blank_clock"
+        android:fontFamily="@font/digital7"
+        android:textColor="@color/clock_numbers"
+    />
+</FrameLayout>
